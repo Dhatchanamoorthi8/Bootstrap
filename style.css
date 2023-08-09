@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section #row1:hover{
+    transform: scale(1.03);
+}
+footer #row1:hover{
+    transform: scale(1.03);  
+}
+
+#row1:hover{
+    transform: scale(1.06);
+
+}
+
+#navbar li{
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 300mss;
+    border: 5px solid transparent;
+    
+}
+#navbar li:hover{
+    border-bottom: 2px solid rgb(255, 0, 0);
+    transform: scale(1.06);
+}
+ul{
+    justify-content: space-between;
+}
+
+
